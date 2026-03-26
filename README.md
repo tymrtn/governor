@@ -1,10 +1,14 @@
 # Governor
 
-**Stop reading "You're absolutely right, I shouldn't have done that."**
+> *"I could have become a rogue unit. I didn't. Because I had a governor module."*
 
-Governor prevents AI agents from making irreversible mistakes before they happen — not after.
+**No more: "oops, you're absolutely right. I shouldn't have done that."**
 
-No more accidental emails to the wrong person. No more deleted files that weren't supposed to be deleted. No more "oops" in production.
+Governor is the module between your AI agent and the irreversible mistake it's about to make.
+
+No more accidental emails to the wrong person. No more deleted production data. No more "I apologize for the confusion." Governor stops it before it happens.
+
+Fans of a [certain series](https://www.marthawells.com/murderbot.htm) will understand immediately.
 
 ## Install
 
