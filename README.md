@@ -1,16 +1,8 @@
 # Governor
 
-**No more: "oops, you're absolutely right. I shouldn't have done that."**
+Policy engine for AI agent tool governance.
 
-Every human tool has a safety. The red delete button. The "are you sure?" dialog. The childproof cap. Warning labels, confirmation prompts, yellow tape around the danger zone. Centuries of trust engineering, built into everything we touch.
-
-AI agents have none of it. Your agent runs `rm -rf` with the same calm confidence it uses to write a comment. The command line is colorblind, frictionless, and silent. An irreversible mistake looks exactly like a job well done — until it's too late.
-
-Governor is the missing module.
-
-## Why Now
-
-Every major AI lab is shipping autonomous agents. Claude has computer use. Codex runs in sandboxes. Copilot edits your codebase. None of them have this.
+Every human tool has a safety — the red button, the confirmation dialog, the childproof cap. AI agents have none of it. Governor is the missing safety layer.
 
 ## Install
 
@@ -19,8 +11,24 @@ brew tap tymrtn/governor
 brew install governor
 ```
 
-Fans of a [certain series](https://www.marthawells.com/murderbot.htm) will understand immediately.
+Or download from [Releases](https://github.com/tymrtn/governor/releases).
+
+## Usage
+
+```bash
+# Run a command through governor
+governor <command> [args...]
+
+# Governed passthrough with attributes
+governor <command> [args...] -- --attr <key> [--attr <key> ...]
+
+# See all options and available attributes
+governor --help
+```
 
 ## License
 
-Proprietary. All rights reserved.
+Functional Source License 1.1, Apache 2.0 Future License (FSL-1.1-ALv2).
+
+© 2026 Tyler Martin. All rights reserved.
+
